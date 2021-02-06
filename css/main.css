@@ -1,0 +1,97 @@
+:root {
+    --main-color: rgba(33,33,33,1);
+    --blue-color: rgba(33,150,243,1);
+    --grey-color: rgba(117,117,117,1);
+    --white-color: rgba(255,255,255,1);
+    --black-color: rgba(0,0,0,1);
+    --color-adress: rgba(255, 255, 255, 0.6);
+    --background-color: rgba(47, 48, 58, 1);
+    --background-color-team: rgba(245, 244, 250, 1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+/*стили логотипа*/
+
+.logo {
+    color: var(--blue-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+}
+
+.logo-header {
+    color: var(--black-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+/*стили основной новигации*/
+.menu {
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.head-item {
+    color: var(--main-color);
+}
+
+.head-contacts {
+    color: var(--grey-color);
+}
+
+.head-item:hover,
+.head-item:focus,
+.head-contacts:hover,
+.head-contacts:focus {
+    color: var(--blue-color);
+}
+
+/*стили футера*/
+.foot {
+    background-color: var(--background-color);
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.foot-address {
+    color: var(--white-color);
+}
+
+.foot-contacts {
+    color: var(--color-adress);
+}
+
+/*скрытие заголовка*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}

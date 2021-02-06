@@ -1,0 +1,67 @@
+/*разметка основной секции*/
+
+.main {
+    background-color: var(--background-color);
+    text-align: center;
+    color: var(--white-color);
+}
+
+.main-slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.main-botton {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+/*разметка преимуществ*/
+
+.features-title {
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.features-desc {
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--grey-color);
+}
+
+/*чем мы занимаемся*/
+.skills {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*команда*/
+
+.team {
+    background-color: var(--background-color-team);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.team-name {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.team-position {
+    color: var(--grey-color);
+}
